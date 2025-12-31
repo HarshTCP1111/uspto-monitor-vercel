@@ -2,10 +2,10 @@
     "name": "uspto-monitor-vercel",
     "version": "1.0.0",
     "description": "USPTO Monitoring System with 6-hour checks",
-    "main": "lib/unified-uspto-monitor.js",
     "scripts": {
       "dev": "vercel dev",
       "deploy": "vercel --prod",
+      "build": "echo 'Build complete - Vercel handles serverless function deployment'",
       "monitor": "node lib/unified-uspto-monitor.js",
       "report": "node lib/unified-uspto-monitor.js --latest-dates-email",
       "test": "node lib/unified-uspto-monitor.js --test-one"
