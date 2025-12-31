@@ -5,7 +5,7 @@
     "scripts": {
       "dev": "vercel dev",
       "deploy": "vercel --prod",
-      "build": "echo 'Build complete - Vercel handles serverless function deployment'",
+      "build": "exit 0",
       "monitor": "node lib/unified-uspto-monitor.js",
       "report": "node lib/unified-uspto-monitor.js --latest-dates-email",
       "test": "node lib/unified-uspto-monitor.js --test-one"
